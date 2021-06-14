@@ -1,4 +1,4 @@
-package com.designPattern.iterator;
+package iterator;
 
 public class Book {
  private String name;

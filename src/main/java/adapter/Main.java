@@ -1,4 +1,4 @@
-package com.designPattern.adapter;
+package adapter;
 
 public class Main {
 

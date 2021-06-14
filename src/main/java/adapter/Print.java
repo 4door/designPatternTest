@@ -1,4 +1,4 @@
-package com.designPattern.adapter;
+package adapter;
 
 public interface Print {
 	public abstract void printWeak();
