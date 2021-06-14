@@ -4,8 +4,9 @@ import framework.*;
 
 public class IDCard extends Product {
 	private String owner;
-	IDCard(String owner) {
-		System.out.println(owner + "のカードを作ります");
+	private Integer no;
+	IDCard(String owner, Integer no) {
+		System.out.println(owner + no + "のカードを作ります");
 		this.owner = owner;
 	}
 	public void use() {
@@ -13,5 +14,8 @@ public class IDCard extends Product {
 	}
 	public String getOwner() {
 		return owner;
+	}
+	public Integer getNo() {
+		return no;
 	}
 }
